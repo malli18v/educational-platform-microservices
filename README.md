@@ -2,22 +2,29 @@
 
 A simple educational platform built using Spring Boot Microservices.
 
-## Features
+## Project Status
+
+🚧 **Work in Progress**
+
+This project is currently under development. New microservices and features are being implemented step by step.
+
+## Planned Features
 
 - Teacher and student authentication
+- JWT-based authentication and authorization
 - Teachers can create and manage courses
 - Students can view courses
 - Students can comment on courses
 - Teachers can view student comments
-- JWT-based authentication and authorization
 
 ## Microservices
 
-- Config Server - Centralized configuration
-- Eureka Server - Service discovery
-- Auth Service - User registration and authentication
-- Course Service - Course management
-- Comment Service - Student comments
+- Config Server
+- Eureka Server
+- Auth Service
+- Course Service
+- Comment Service
+- API Gateway
 
 ## Technologies
 
@@ -26,24 +33,21 @@ A simple educational platform built using Spring Boot Microservices.
 - Spring Cloud
 - Spring Security
 - JWT
-- Spring Data JPA / Hibernate
+- Spring Data JPA
+- Hibernate
 - PostgreSQL
 - Maven
 - Git
 
-## Architecture
+## Current Progress
 
-```text
-                 Config Server
-                     |
-                     v
-                 Eureka Server
-                     |
-          +----------+----------+
-          |          |          |
-          v          v          v
-      Auth       Course      Comment
-     Service     Service      Service
-          |          |          |
-          v          v          v
-      PostgreSQL PostgreSQL PostgreSQL
+- [x] Config Server
+- [x] Eureka Server
+- [x] Auth Service
+- [x] PostgreSQL Integration
+- [ ] JWT Authentication
+- [ ] Course Service
+- [ ] Comment Service
+- [ ] API Gateway
+
+More features will be added as development continues.
