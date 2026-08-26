@@ -1,4 +1,4 @@
-# Teacher-Student Educational Platform
+#  Educational Platform
 
 A simple educational platform built using Spring Boot Microservices.
 
